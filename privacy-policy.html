@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pub Cards — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #1a1410;
+    --surface: #231e18;
+    --border: #3a3228;
+    --gold: #FFC63E;
+    --gold-dim: #c49a2e;
+    --text: #e8ddd0;
+    --text-muted: #a89880;
+    --accent: #d4a843;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: 'Crimson Pro', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid var(--border);
+    padding: 6px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .effective {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--text);
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  p { margin-bottom: 14px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    margin: 20px 0;
+  }
+
+  .card.highlight {
+    border-color: var(--gold-dim);
+    background: linear-gradient(135deg, var(--surface), #2a2318);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+
+  th {
+    text-align: left;
+    color: var(--gold);
+    font-weight: 600;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--border);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  td:first-child {
+    color: var(--text);
+    font-weight: 600;
+    white-space: nowrap;
+    width: 35%;
+  }
+
+  td:last-child { color: var(--text-muted); }
+
+  a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  a:hover { border-bottom-color: var(--gold); }
+
+  .footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="badge">Pub Cards</div>
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective date: 1 June 2026</p>
+
+  <p>Pub Cards is a mobile card game developed by an independent developer based in the United Kingdom. This policy explains what data the app collects, why, and how it is handled. The short version: we collect very little, we don't sell anything, and there are no ads.</p>
+
+  <h2>1. What We Collect</h2>
+
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Anonymous user ID</td><td>Created automatically by Firebase Authentication. No email, password, or personal identity is required. Your account is tied to your device.</td></tr>
+        <tr><td>Display name</td><td>A name you choose, shown to other players in lobbies, leaderboards, and friend lists. You can change it at any time in Settings.</td></tr>
+        <tr><td>Avatar</td><td>Either a pre-made character you select, or a photo you upload from your device. Stored securely in Firebase Storage.</td></tr>
+        <tr><td>Friend code</td><td>A unique code (e.g. PUB-XXXX) so other players can add you as a friend. Generated automatically.</td></tr>
+        <tr><td>Gameplay data</td><td>Game results, scores, achievements, XP, win streaks, chip balances, and match history. Used to track your progress and populate leaderboards.</td></tr>
+        <tr><td>Bug reports</td><td>When you submit a bug report, the app attaches your user ID, display name, device model, operating system version, and app version. This helps us diagnose issues.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>2. What We Don't Collect</h2>
+
+  <p>We do not collect your real name, email address, phone number, location, contacts, browsing history, or any payment information. The app contains no advertising, no analytics SDKs beyond Firebase, and no third-party trackers.</p>
+
+  <h2>3. How Your Data Is Used</h2>
+
+  <p>Your data is used solely to make the app work: signing you in, saving your progress, matching you with friends, displaying leaderboards, and processing bug reports. We do not sell, rent, or share your data with any third party for marketing or advertising purposes.</p>
+
+  <h2>4. Third-Party Services</h2>
+
+  <div class="card">
+    <h3>Firebase (Google)</h3>
+    <p>The app uses Firebase for authentication, database storage (Firestore and Realtime Database), and file storage (Firebase Storage for avatar photos). Firebase processes data on servers located in the EU and/or US. Google's privacy policy applies to their infrastructure: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+    <p>If push notifications are added in a future update, Firebase Cloud Messaging will be used. This would require a device token — you would be asked for permission before notifications are enabled.</p>
+  </div>
+
+  <h2>5. Data Retention</h2>
+
+  <p>Your profile, game history, and achievements are kept for as long as your account exists. Bug reports are retained until the reported issue is resolved, then deleted. If you delete your account (Settings → Account → Delete Account), your profile document and authentication record are permanently removed. Achievement and match history subcollections may remain as orphaned data but are inaccessible without your authentication token.</p>
+
+  <h2>6. Account Deletion</h2>
+
+  <p>You can delete your account at any time from within the app: Settings → Account → Delete Account. This is a two-step confirmation process. Deletion removes your Firestore profile and Firebase Authentication record. Because authentication is anonymous, this action is permanent and irreversible — there is no way to recover a deleted account.</p>
+
+  <h2>7. Children's Privacy</h2>
+
+  <p>Pub Cards is not directed at children under the age of 13. We do not knowingly collect personal information from children. The app uses anonymous authentication with no age verification. If you believe a child under 13 has provided data through the app, please contact us and we will take steps to remove it.</p>
+
+  <h2>8. Your Rights (UK GDPR)</h2>
+
+  <p>Under UK data protection law, you have the right to access, correct, or delete the personal data we hold about you. Because the app uses anonymous authentication, the data we hold is limited to what's described above and is not linked to your real-world identity unless you choose to upload a recognisable photo or use your real name as your display name.</p>
+
+  <p>To exercise any of these rights, contact us using the details below. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>.</p>
+
+  <h2>9. Data Security</h2>
+
+  <p>All data is transmitted over HTTPS. Database access is controlled by Firebase Security Rules, ensuring players can only read and write their own data. Avatar images are stored in Firebase Storage with access rules tied to the authenticated user.</p>
+
+  <h2>10. Changes to This Policy</h2>
+
+  <p>If this policy is updated, the revised version will be posted at this URL with a new effective date. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+
+  <h2>11. Contact</h2>
+
+  <div class="card highlight">
+    <p>If you have questions about this privacy policy or your data, contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:pubcardsapp@gmail.com">pubcardsapp@gmail.com</a></p>
+  </div>
+
+  <div class="footer">
+    <p>Pub Cards &middot; Privacy Policy &middot; Last updated 1 June 2026</p>
+  </div>
+
+</div>
+</body>
+</html>
